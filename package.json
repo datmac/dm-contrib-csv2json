@@ -1,0 +1,37 @@
+{
+  "name": "mill-contrib-csv2json",
+  "version": "0.0.0",
+  "description": "Mill's plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milljs/mill-contrib-csv2json.git"
+  },
+  "keywords": [
+    "milljs",
+    "millplugin"
+  ],
+  "author": "Luke Madel",
+  "dependencies": {
+    "mill-core": "latest",
+    "debug": "latest",
+    "csv-string": "~1.2.0"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.1"
+  },
+  "peerDependencies": {
+    "mill-server": "latest"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milljs/mill-contrib-csv2json/issues"
+  },
+  "bin": {
+    "mill-contrib-csv2json": "./cli.js"
+  }
+}

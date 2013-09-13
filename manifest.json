@@ -1,0 +1,33 @@
+{
+  "id": "csv2json",
+  "author" : {
+    "name" : "Luke Madel"
+  },
+  "title": {
+    "fr" : "Transforme du CSV en JSON",
+    "en" : "Transform CSV to JSON"
+  },
+  "description": {
+    "fr" : "Cette commande transforme un flux CSV en une structure JSON.",
+    "en": "This command transforms  CVS data to JSON object."
+  },
+  "parameters" :  {
+    "title" : {
+      "alias": "t",
+      "type": "boolean",
+      "required": true,
+      "default": true,
+      "size": "",
+      "pattern": "",
+      "maxlength": "",
+      "label": {
+        "fr": "Ligne de titres",
+        "en": "Titles line"
+      },
+      "help": {
+        "en": "First line contains the columns titles.",
+        "fr": "Considérer que la premmière ligne contient les titres des colonnes."
+      }
+    }
+  }
+}

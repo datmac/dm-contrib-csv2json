@@ -1,2 +1,2 @@
-mill-contrib-cs2json
+dm-contrib-cs2json
 ====================

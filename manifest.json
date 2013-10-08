@@ -1,8 +1,5 @@
 {
   "id": "csv2json",
-  "author" : {
-    "name" : "Luke Madel"
-  },
   "title": {
     "fr" : "Transforme du CSV en JSON",
     "en" : "Transform CSV to JSON"

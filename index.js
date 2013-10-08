@@ -2,7 +2,7 @@
 
 var path = require('path')
 , basename = path.basename(path.dirname(__filename))
-, debug = require('debug')('mill:contrib:' + basename)
+, debug = require('debug')('dm:contrib:' + basename)
 , Transform = require("stream").Transform
 , CSV = require('csv-string')
 ;

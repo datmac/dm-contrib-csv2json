@@ -1,5 +1,6 @@
 {
   "id": "csv2json",
+  "output": "application/json",
   "title": {
     "fr" : "Transforme du CSV en JSON",
     "en" : "Transform CSV to JSON"
